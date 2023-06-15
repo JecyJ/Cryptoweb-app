@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import {RiArrowDropDownLine} from 'react-icons/ri'
@@ -12,7 +11,7 @@ function Hero() {
             <Link href='/'>
               <h2 className='text-xl text-[#468EF9] font-medium'>SIGN UP TODAY</h2>
             </Link>            
-            <Image className='hidden w-7 md:block items-end' src='/images/Star 2.png' alt='/' width={30} height={30} />
+            <Image className='hidden w-7 md:block items-end' src='/images/Star-2.png' alt='/' width={30} height={30} />
           </div>          
           <h1 className='text-6xl sm:text-5xl lg:text-6xl text-center md:text-left leading-tight font-semibold'>The Worlds <p className='text-[#3984F4]'>Fastest Growing</p> Crypto Web App</h1>
           <p className='hidden md:block text-sm my-4'>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>

@@ -14,8 +14,8 @@ function Footer() {
              <Image className='w-28 py-7 md:mx-6' src='/images/Logo.png' alt='/' width={50} height={50} />
             </Link>
             <ul className='text-gray-700 text-sm md:text-base md:text-center md:px-7'>
-              <Link href='/'>
-               <li className='pb-2'>Buy Crypto</li>
+              <Link href='/cryptocurrency'>
+               <li className='pb-2'>Cryptocurrency</li>
               </Link>
               <Link href='/'>
                <li className='pb-2'>Exchanges</li>
@@ -26,7 +26,7 @@ function Footer() {
               <Link href='/'>
                <li className='pb-2'>Portfolio</li>
               </Link>
-              <Link href='/'>
+              <Link href='/nft'>
                <li>NFT</li>
               </Link>
             </ul>           

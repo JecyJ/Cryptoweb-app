@@ -43,7 +43,7 @@ function Navbar() {
             <Image src='/images/Logo.png' alt='/' width={100} height={100} />
           </Link>
           <ul className='hidden md:flex items-center space-x-2 lg:space-x-6 text-sm lg:text-lg'>
-            <Link href='/#cryptocurrency'>
+            <Link href='/crypto'>
                 <li>Cryptocurrency</li>
             </Link>
             <Link href='/#exchanges'>
@@ -52,7 +52,7 @@ function Navbar() {
             <Link href='/#watchlist'>
                 <li>Watchlist</li>
             </Link>
-            <Link href='/#nft'>
+            <Link href='/nft'>
                 <li>NFT</li>
             </Link>
             <Link href='/#portfolio'>
@@ -81,7 +81,7 @@ function Navbar() {
               </div>
             </div>          
             <ul className='max-w-[450px] sm:max-w-[650px] m-auto py-1 px-5 text-3xl mt-10 text-center text-white'>
-              <Link href='/#cryptocurrency'>
+              <Link href='/crypto'>
                   <li onClick={handleNav} className='py-3'>Cryptocurrency</li>
               </Link>
               <Link href='/#exchanges'>
@@ -90,7 +90,7 @@ function Navbar() {
               <Link href='/#watchlist'>
                   <li onClick={handleNav} className='py-3'>Watchlist</li>
               </Link>
-              <Link href='/#nft'>
+              <Link href='/nft'>
                   <li onClick={handleNav} className='py-3'>NFT</li>
               </Link>
               <Link href='/#portfolio'>
