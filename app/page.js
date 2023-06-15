@@ -8,14 +8,14 @@ import NFT from '@/components/NFT'
 import Security from '@/components/security'
 import Getstarted from '@/components/getstarted'
 import FAQ from '@/components/FAQ'
-import { useSession } from "next-auth/react"
+// import { useSession } from "next-auth/react"
 import Crypto from '@components/Crypto'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const {data:session} = useSession()
+  // const {data:session} = useSession()
 
   return (
     <>
@@ -25,41 +25,52 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {session ? User({session}) : Guest()}
+      <main>
+        <Hero />
+        <Crypto />
+        <Exchanges />
+        <Partners />
+        <Watchlist />
+        <NFT />
+        <Security />
+        <Getstarted />
+        <FAQ />
+      </main>
+      {/* {session ? User({session}) : Guest()} */}
     </>
   )
 }
 
-//Guest
-function Guest() {
-  return (
-    <main>
-        <Hero />
-        <Crypto />
-        <Exchanges />
-        <Partners />
-        <Watchlist />
-        <NFT />
-        <Security />
-        <Getstarted />
-        <FAQ />
-      </main>
-  )
-}
+// //Guest
+// function Guest() {
+//   return (
+//     <main>
+//         <Hero />
+//         <Crypto />
+//         <Exchanges />
+//         <Partners />
+//         <Watchlist />
+//         <NFT />
+//         <Security />
+//         <Getstarted />
+//         <FAQ />
+//       </main>
+//   )
+// }
 
-//authorised user
-function User({session}) {
-  return (
-    <main>
-        <Hero />
-        <Crypto />
-        <Exchanges />
-        <Partners />
-        <Watchlist />
-        <NFT />
-        <Security />
-        <Getstarted />
-        <FAQ />
-      </main>
-  )
-}
+// //authorised user
+// function User({session}) {
+//   return (
+//     <main>
+//         <Hero />
+//         <Crypto />
+//         <Exchanges />
+//         <Partners />
+//         <Watchlist />
+//         <NFT />
+//         <Security />
+//         <Getstarted />
+//         <FAQ />
+//       </main>
+//   )
+// }
