@@ -5,7 +5,7 @@ import {RiArrowDropDownLine} from 'react-icons/ri'
 
 function Hero() {
   return (
-    <div className='w-full h-auto bg-gradient-to-r from-blue-200 from-40% via-blue-300 via-60% to-blue-400 to-90%'>
+    <div className='w-full h-screen bg-gradient-to-r from-blue-200 from-40% via-blue-300 via-60% to-blue-400 to-90%'>
       <div className='flex md:flex items-center h-screen w-screen max-w-[450px] mx-auto sm:max-w-[900px] md:max-w-[1250px] md:mr-0 md:pl-5'>
         <div className='flex flex-col items-center justify-center mx-auto md:mr-6 md:items-start'>
           <div className='md:flex space-x-48 p-5'>
