@@ -14,14 +14,14 @@ function Hero() {
             </Link>            
             <Image className='hidden w-7 md:block items-end' src='/images/Star 2.png' alt='/' width={30} height={30} />
           </div>          
-          <h1 className='text-6xl sm:text-5xl md:text-6xl text-center md:text-left leading-tight font-semibold'>The Worlds <p className='text-[#3984F4]'>Fastest Growing</p> Crypto Web App</h1>
-          <p className='hidden md:block text-lg my-4'>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>
+          <h1 className='text-6xl sm:text-5xl lg:text-6xl text-center md:text-left leading-tight font-semibold'>The Worlds <p className='text-[#3984F4]'>Fastest Growing</p> Crypto Web App</h1>
+          <p className='hidden md:block text-sm my-4'>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>
           <div className='flex flex-col mt-5 md:flex-row md:space-x-5 font-medium'>
             <Link href='/crypto'>
-              <button className='border py-2 w-48 rounded-3xl text-lg mb-4 md:mb-0 bg-[#468EF9] border-[#468EF9] text-white'>Get Started</button>
+              <button className='border py-1 w-48 rounded-3xl text-base mb-4 md:mb-0 bg-[#468EF9] border-[#468EF9] text-white'>Get Started</button>
             </Link>
             <Link href='/'>
-              <button className='flex justify-center items-center border py-2 w-48 rounded-3xl text-lg border-[#468EF9] text-[#468EF9]'>Download App<RiArrowDropDownLine size={20} /></button>
+              <button className='flex justify-center items-center border py-1 w-48 rounded-3xl text-base border-[#468EF9] text-[#468EF9]'>Download App<RiArrowDropDownLine size={20} /></button>
             </Link>           
           </div>          
         </div>
