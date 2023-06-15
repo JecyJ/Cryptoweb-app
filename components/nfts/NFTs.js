@@ -59,7 +59,7 @@ const NFTs = () => {
                         <th className="hidden sm:table-cell">Symbol</th>
                         <th>Name</th>
                         <th>Assets</th>
-                        <th className="hidden md:table-cell">Address</th>                  
+                        <th className="hidden lg:table-cell">Address</th>                  
                         </tr>
                     </thead>
                     <tbody className="text-center py-2">
@@ -68,7 +68,7 @@ const NFTs = () => {
                             <td className="hidden sm:table-cell">{nfts.symbol}</td>
                             <td>{nfts.name}</td>
                             <td>{nfts.asset_platform_id}</td>
-                            <td className="hidden md:table-cell">{nfts.contract_address}</td>
+                            <td className="hidden lg:table-cell">{nfts.contract_address}</td>
                         </tr>
                         ))}
                     </tbody>
