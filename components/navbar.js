@@ -37,12 +37,12 @@ function Navbar() {
     }
 
     return (
-      <div className='sticky left-0 top-0 z-10 ease-in duration-300 bg-gradient-to-r from-blue-200 from-40% via-blue-300 via-60% to-blue-400 to-90%'>
+      <div className='sticky w-full h-auto left-0 top-0 z-10 ease-in duration-300 bg-gradient-to-r from-blue-200 from-40% via-blue-300 via-60% to-blue-400 to-90%'>
         <div className='max-w-[450px] md:max-w-[1180px] sm:max-w-[650px] m-auto flex justify-between items-center py-1 px-5'>
           <Link href='/'>
             <Image src='/images/Logo.png' alt='/' width={100} height={100} />
           </Link>
-          <ul className='hidden md:flex items-center space-x-6'>
+          <ul className='hidden md:flex items-center space-x-2 lg:space-x-6 text-sm lg:text-lg'>
             <Link href='/#cryptocurrency'>
                 <li>Cryptocurrency</li>
             </Link>
@@ -63,10 +63,10 @@ function Navbar() {
                 Products <RiArrowDropDownLine size={20} /></li>
             </Link>
           </ul>
-          <div className='space-x-5 hidden md:flex items-center'>
-            <button className='border py-2 w-32 rounded-3xl text-lg mb-4 md:mb-0 bg-[#468EF9] border-[#468EF9] text-white'>Sign In</button>
+          <div className='space-x-1 hidden md:flex items-center'>
+            <button className='border py-1 w-28 rounded-3xl text-sm mb-4 md:mb-0 bg-[#468EF9] border-[#468EF9] text-white'>Sign In</button>
 
-            <button className='border py-2 w-32 rounded-3xl text-lg border-[#468EF9] text-white'>Sign Up</button>
+            <button className='border py-1 w-28 rounded-3xl text-sm border-[#468EF9] text-white'>Sign Up</button>
           </div>
           <div onClick={handleNav} className='md:hidden'>
             <AiOutlineMenu size={20} />
