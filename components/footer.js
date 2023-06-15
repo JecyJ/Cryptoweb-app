@@ -17,7 +17,7 @@ function Footer() {
               <Link href='/cryptocurrency'>
                <li className='pb-2'>Cryptocurrency</li>
               </Link>
-              <Link href='/'>
+              <Link href='/exchanges'>
                <li className='pb-2'>Exchanges</li>
               </Link>
               <Link href='/'>

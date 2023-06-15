@@ -46,7 +46,7 @@ function Navbar() {
             <Link href='/crypto'>
                 <li>Cryptocurrency</li>
             </Link>
-            <Link href='/#exchanges'>
+            <Link href='/exchanges'>
                 <li>Exchanges</li>
             </Link>
             <Link href='/#watchlist'>
@@ -84,7 +84,7 @@ function Navbar() {
               <Link href='/crypto'>
                   <li onClick={handleNav} className='py-3'>Cryptocurrency</li>
               </Link>
-              <Link href='/#exchanges'>
+              <Link href='/exchanges'>
                   <li onClick={handleNav} className='py-3'>Exchanges</li>
               </Link>
               <Link href='/#watchlist'>
